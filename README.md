@@ -1,6 +1,7 @@
 # Bishal's MegaMart
 
-LINK
+LINK:
+https://11deybishal-commits.github.io/Own_Shopping_Website/
 
 B Dey MegaMart – Shopping Website:
 
