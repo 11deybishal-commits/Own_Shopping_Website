@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bishal Mega Mart</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="top-nav">
+  <div class="logo">
+    <span class="bd">B Dey</span>
+    <span class="mm">Mega Mart</span>
+  </div>
+
+  <input type="text" class="search" placeholder="Search products...">
+
+  <div class="nav-right">
+    <select>
+      <option>India 🇮🇳</option>
+      <option>USA 🇺🇸</option>
+      <option>UK 🇬🇧</option>
+    </select>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <div class="cart">
+      🛒 <span id="cartCount">0</span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>
+    Celebrating Everyday Living<br>
+    <span>With Indian Elegance</span>
+  </h1>
+  <p>Festive essentials • Handcrafted goods • Trusted quality</p>
+  <button>Shop Festive Collection</button>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+  <h2>Our Collection</h2>
+
+  <div class="product-grid">
+
+    <div class="card">
+      <img src="https://mudkart.com/cdn/shop/files/206.png?v=1716888383">
+      <h3>Handcrafted Clay Lamp</h3>
+      <p>₹799</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/spice-masala/i/z/r/150-indian-spice-collection-150-gm-assorted-6-whole-spices-original-imags8rrqmdwg5pe.jpeg?q=90">
+      <h3>Organic Spice Set</h3>
+      <p>₹1299</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/81pNcWIid1L._AC_UF894,1000_QL80_.jpg">
+      <h3>Ethnic Cotton Cushion</h3>
+      <p>₹999</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLjWJosnbsDaezKdj8agPtr5sLVL0AgtP3SQ&s">
+      <h3>Brass Tea Kettle</h3>
+      <p>₹1899</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="info">
+  <h2>About Bishal Mega Mart</h2>
+  <p>
+    Bishal Mega Mart brings together Indian tradition and modern convenience.
+    Our products are inspired by festivals, homes, and everyday Indian living.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="info light">
+  <h2>Contact Us</h2>
+  <p>Email: support@bishalmegamart.com</p>
+  <p>Phone: +91 9XXXXXXXXX</p>
+</section>
+
+<footer>
+  © 2025 Bishal Mega Mart • Crafted with care
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
